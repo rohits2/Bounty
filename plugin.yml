@@ -1,0 +1,10 @@
+name: EndSwear
+main: me.FreeSpace2.Bounty.Main
+version: 1.0
+depend: [Vault]
+commands:
+  bounty:
+    description: Add a bounty to a player.
+    permission: Bounty.add
+    permission-message: We don't tolerate no 'sassination 'round these parts!
+    usage: /bounty [player] [bounty]
